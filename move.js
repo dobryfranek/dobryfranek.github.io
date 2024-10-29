@@ -30,7 +30,7 @@ window.onload = function() {
     };
 
     function bounce() {
-        window.navigator.vibrate(200)
+        navigator.vibrate(200)
         ySpeed += 0.1;
         x += xSpeed;
         y += ySpeed;
